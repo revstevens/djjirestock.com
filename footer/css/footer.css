@@ -1,0 +1,389 @@
+@font-face {
+  font-family: 'asapbold';
+  src: 	url("../fonts/asap/asap-bold-webfont.eot");
+  src: 	url("../fonts/asap/asap-bold-webfont.eot?#iefix") format("embedded-opentype"), 
+  		url("../fonts/asap/asap-bold-webfont.woff") format("woff"), 
+  		url("../fonts/asap/asap-bold-webfont.ttf") format("truetype"), 
+  		url("../fonts/asap/asap-bold-webfont.svg#asapbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'asapbold_italic';
+  src: 	url("../fonts/asap/asap-bolditalic-webfont.eot");
+  src: 	url("../fonts/asap/asap-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), 
+  		url("../fonts/asap/asap-bolditalic-webfont.woff") format("woff"), 
+  		url("../fonts/asap/asap-bolditalic-webfont.ttf") format("truetype"), 
+	  	url("../fonts/asap/asap-bolditalic-webfont.svg#asapbold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'asapitalic';
+  src: 	url("../fonts/asap/asap-italic-webfont.eot");
+  src: 	url("../fonts/asap/asap-italic-webfont.eot?#iefix") format("embedded-opentype"), 
+  		url("../fonts/asap/asap-italic-webfont.woff") format("woff"), 
+  		url("../fonts/asap/asap-italic-webfont.ttf") format("truetype"), 
+  		url("../fonts/asap/asap-italic-webfont.svg#asapitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'asapregular';
+  src: 	url("../fonts/asap/asap-regular-webfont.eot");
+  src: 	url("../fonts/asap/asap-regular-webfont.eot?#iefix") format("embedded-opentype"),
+  		url("../fonts/asap/asap-regular-webfont.woff") format("woff"), 
+  		url("../fonts/asap/asap-regular-webfont.ttf") format("truetype"), 
+  		url("../fonts/asap/asap-regular-webfont.svg#asapregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+footer .content ul, footer .content ol {
+    background-color: transparent !important;
+    border-bottom: none  !important;
+    box-shadow: none !important;
+}
+
+/* GENERAL FOOTER
+------------------*/
+ footer {
+	background-color: #254888;
+	color: #fff;
+	font-size: 15px;
+	padding: 0;
+	}
+footer .container{
+	width: 100%;
+	}
+footer .row{
+	margin-left: 0;
+	border-top: black solid 2px;
+	} 
+footer .col25{
+	width: 25%;
+	float: left;
+	}
+
+/* TYPOGRAPHY
+------------------*/
+ footer h2{
+    background: none repeat scroll 0 0 #375EA5;
+    font-family: 'asapbold_italic';
+    font-size: 15px;
+    font-weight: 400;
+    /* height: 21px; */
+    margin: 0;
+    padding: 10px;
+	border-bottom: black solid 2px;
+	color: white !important;
+	}
+.f-h2-align{
+	text-align: center;
+	}
+footer p{
+	color: white;
+}	
+.title-icon-form,
+.title-icon-chat,
+.title-icon-info,
+.title-icon-app
+{
+	width: 35px;
+	height: 30px;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	display: inline-block;
+	margin: -10px 10px;
+	margin-left: 0;
+}
+
+.icon-globe,
+.icon-help,
+.icon-report,
+.icon-restock,
+.icon-cloud,
+.icon-phone 
+{
+background-position: center center;
+background-repeat: no-repeat;
+background-size: 100% auto;
+display: inline-block;
+height: 30px;
+left: -15px;
+position: absolute;
+width: 25px;
+margin-top: -5px;
+}
+
+.title-icon-form{
+	background-image: url(../images/footer/icon-form.png);
+}
+.title-icon-chat{
+	background-image: url(../images/footer/icon-chat.png);
+}
+.title-icon-info{
+	background-image: url(../images/footer/icon-info.png);
+}
+.title-icon-app{
+	background-image: url(../images/footer/icon-app.png);
+}
+.icon-phone{
+	background-image: url(../images/footer/icon-phone.png);
+}
+.icon-help{
+	background-image: url(../images/footer/icon-help.png);
+}
+.icon-report{
+	background-image: url(../images/footer/icon-report.png);
+}
+.icon-restock{
+	background-image: url(../images/footer/icon-restock.png);
+}
+.icon-cloud{
+	background-image: url(../images/footer/icon-cloud.png);
+}
+.icon-globe{
+	background-image: url(../images/footer/icon-globe.png);
+}
+
+/* MYEMMA FORM
+------------------*/
+.e2ma_signup_form_required_footnote{display: none !important;}
+footer #e2ma_signup_message { 
+	display: none; 
+	}
+footer .e2ma_signup_form_row {
+	content:"";
+	min-height: 55px;
+	}
+footer .e2ma_signup_form_label{
+	width: 40%;
+	float: left;
+	color: #ffffff !important;
+	}
+footer .e2ma_signup_form_element{
+	width: 60%;
+	float: left;
+	}
+footer .e2ma_signup_form_element input {
+    width: 95%;
+	}
+footer .e2ma_signup_form_button{
+	float: right;
+	margin-left: 10px;
+	}
+footer .e2ma_signup_form_button_row{
+	padding: 10px;
+	}
+footer .e2ma_signup_form_label{
+	line-height: 35px;
+	text-transform: uppercase;
+	font-size: 12px;
+	}
+footer .e2ma_signup_form_button {
+  border: none !important;
+  background: #bdc3c7;
+  color: #ffffff !important;
+  padding: 9px 12px 10px !important;
+  line-height: 22px !important;
+  text-decoration: none !important;
+  text-shadow: none !important;
+  -webkit-border-radius: 6px !important;
+  -moz-border-radius: 6px !important;
+  border-radius: 6px !important;
+  -webkit-box-shadow: none !important; 
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-transition: 0.25s;
+  -moz-transition: 0.25s;
+  -o-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-backface-visibility: hidden;
+}
+/* COLUMN CONTENT
+------------------*/
+.content{
+	padding: 20px;
+	list-style: none;
+	position: relative;
+	}
+.content li{
+	margin-bottom: 20px;
+	}
+.content li a{
+	font-family: 'asapbold_italic';
+	font-weight: 400;
+	font-size: 13px;
+	text-decoration: none;
+	color: #fff;
+	}
+.content li p{
+	font-size: 12px
+	}
+
+/* SOCIAL COLUMN
+------------------*/
+.i-group{
+	text-align: center;
+	}
+.s-icon{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid white;
+    border-radius: 8px 8px 8px 8px;
+    height: auto;
+    margin: 2%;
+    width: 10%;
+	}
+#instock-twitter{
+	font-family: 'asapregular';
+}
+#instock-twitter ul{
+	list-style: none;
+}
+#instock-twitter ul li{
+	background: #fff;
+	border-radius: 5px;
+}
+
+.interact{
+	border-top: 1px dotted #254888;
+	margin-bottom: 0;
+}
+.interact a{
+    color: #254888 !important; 
+    font-family: 'asapitalic' !important;
+    line-height: 35px;
+/*     width: 33.333%; */
+    padding: 4%;
+}
+.user{
+	float: left;
+}
+.user a span{
+	display: none;
+}
+.user a img{
+	border: 2px solid #254888;
+	border-radius: 5px;
+	position: relative;
+	top: -10px;
+	left: -10px;
+	   -moz-box-shadow: inset #254888 0 -3px 0 0;
+	-webkit-box-shadow: inset #254888 0 -3px 0 0;
+			box-shadow: inset #254888 0 -3px 0 0;
+}
+.tweet{
+    color: #254888 !important;
+    font-family: georgia;
+    font-size: 14px !important;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 10px 30px 10px 70px;
+}
+#instock-twitter ul li .tweet a{
+    color: #707078 !important;
+    font-family: georgia !important;
+    font-weight: bold;
+    padding: 0 !important;
+}
+#instock-twitter ul li .tweet a span{
+    color: #707078 !important;
+    font-family: georgia !important;
+    font-weight: bold;
+    padding: 0 !important;
+}
+#instock-twitter ul li .tweet a span span{
+    color: #707078 !important;
+    font-family: georgia !important;
+    font-weight: bold;
+    padding: 0 !important;
+}
+/* LEGAL SEALS FOOTER
+------------------*/
+.legal{
+	margin: 0;
+	font-family: 'asapbold_italic';
+	font-weight: 400;
+	font-smoothing: antialiased;
+	font-size: 15px;
+	background: #375ea5;
+	}
+.legal-img{
+	display: table;
+    float: left;
+    min-width: 25%;
+    text-align: center;
+	}
+.legal-img img {
+    margin: 10px !important;
+    max-height: 75px;
+    max-width: 40% !important;
+    min-width: 50px !important;
+    }
+
+@media only screen and (max-width: 1500px) {
+	.tweet {
+	    color: #254888 !important;
+	    font-family: georgia;
+	    font-size: 14px !important;
+	    font-style: italic;
+	    font-weight: 700;
+	    line-height: 30px;
+	    padding: 55px 5px 10px;
+	}
+}
+@media only screen and (max-width: 1180px) {
+
+	.interact a {
+    	color: #254888 !important;
+		font-family: 'asapitalic' !important;
+		line-height: 35px;
+		padding: 2.5%;
+	}
+}
+@media only screen and (max-width: 1110px) {
+	
+	footer .col25{
+		width: 50%;
+		float: left;
+		min-height: 530px !important;
+		}
+	footer .e2ma_signup_form_row{
+		content:"";
+		}
+	footer .e2ma_signup_form_label{
+		width: 100%;
+		float: none;
+		}
+	footer .e2ma_signup_form_element{
+		width: 100%;
+		float: none;
+		}
+	.tweet{
+		padding: 10px 30px 10px 70px;
+	}
+
+}
+@media only screen and (max-width: 560px) {
+	
+	footer .col25{
+		width: 100%;
+		float: left;
+		}
+	.legal-img{
+		display: table;
+	    float: left;
+	    width: 100%;
+	    height: 85px;
+	    text-align: center;
+		}
+		.tweet{
+			padding: 10px 30px 10px 70px;
+		}
+
+}

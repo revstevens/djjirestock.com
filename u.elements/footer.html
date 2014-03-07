@@ -1,0 +1,137 @@
+
+</div>
+	<footer class="i-footer i-flex-container">
+	
+		<div class="i-flex-container i-wrap-container i-hbox">
+		
+			<div class="i-footer-column">
+				<h2 class="i-footer-column-title">InStock Footer Column 01</h2>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/InStockCo" 
+					data-widget-id="366727313813032960"
+					data-link-color="#cc0000"
+					height="400"
+					
+					
+				>Tweets by @InStockCo</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+			
+			<div class="i-footer-column">
+				<h2 class="i-footer-column-title">Subscribe to Our Newsletter</h2>
+				<script type="text/javascript" src="https://app.e2ma.net/app2/audience/tts_signup/1744509/57b742bbffcac511d6dda017ccfb41d7/1718239/?v=a">
+					
+				</script>
+				<div id="load_check" class="signup_form_message" >This form needs Javascript to display, which your browser doesn't support. <a href="https://app.e2ma.net/app2/audience/signup/1744509/1718239/?v=a"> Sign up here</a> instead </div>
+				<script type="text/javascript">signupFormObj.drawForm();</script>
+			</div>
+			
+			<div class="i-footer-column">
+				<h2 class="i-footer-column-title">Our Other Products</h2>			
+				<div class="i-button"><span class="i-button-icon"></span> <a class="i-button-label" href="">DijjiReport</a>		</div>
+				<div class="i-button"><span class="i-button-icon"></span> <a class="i-button-label" href="">DijjiRestock</a>		</div>
+				<div class="i-button"><span class="i-button-icon"></span> <a class="i-button-label" href="">DijjiPlanner</a>		</div>
+				<div class="i-button"><span class="i-button-icon"></span> <a class="i-button-label" href="">DijjiInventory</a>  	</div>
+				<div class="i-button"><span class="i-button-icon"></span> <a class="i-button-label" href="">SkyProfit</a>	 		</div>
+			</div>
+			
+			<div class="i-footer-column">
+				<h2 class="i-footer-column-title">Socialize with Us</h2>
+				
+			</div>
+			
+		</div>
+				
+		<div class="i-flex-container i-wrap-container i-hbox">
+		
+			<div class="i-footer-legal flex-2">	
+				<p class="centered">Copyright © 2013 InStock Companies. All Rights Reserved</p>
+				<p class="centered">	
+					InStock Companies
+					128 Holiday Court Ste. 105
+					Franklin, TN 37067
+					1.866.678.6260 
+				</p>
+			</div>
+			
+			<div class="i-footer-legal flex-2">
+				<div class="i-button"><span class="i-button-icon"></span><a href="#">Privacy Policy</a> </div>
+				<div class="i-button"><span class="i-button-icon"></span><a href="#">Terms + Conditions</a> </div>
+			</div>
+			
+		</div>
+		
+		<div class="i-flex-container i-hbox">	
+		
+			<div class="i-footer-legal">
+								
+				<img src="u.styles/compiled/icons/TrustE.png" alt="TrustE" width="143" height="45">
+
+				<img src="u.styles/compiled/icons/secure90x72.gif" alt="secure90x72" width="90" height="72">
+				
+				<img src="u.styles/compiled/icons/siteseal_base_lite.gif" alt="siteseal_base_lite" width="132" height="31">
+				
+				<div class="i-icon centered"><span class="i-icon-easytoachieve"></span></div>
+			
+			</div>
+			
+		</div>
+			
+	</footer>
+	
+	<!-- jQuery -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+	
+	<!-- FlexSlider -->
+	<script defer src="jquery.flexslider.js"></script>
+	
+	<script type="text/javascript">
+	
+		//Slider 
+	  	$(window).load(function() {
+		    $('#std-slider').flexslider({
+		      animation: 'slide',
+		      controlsContainer: '.flex-container'
+		    });
+		    $('#m-slider').flexslider();
+		});
+	  	
+	  	//Opens and Closes Navigation
+		$(".nav-toggle").click(function () {
+	    	$(".nav").slideToggle("slow");
+	    });
+	
+	    //Shows Navigation if it has been closed before stretching to wider res
+		$(window).resize(function() {
+	        if($(window).width() >= 680) {
+	            $('.nav').show();
+	        }
+	    }).resize();
+	        
+		//Login Dropdown Menu Hide When Click outside of Menu
+		$(document).click(function() {
+		    $(".login").removeClass("show");
+		});
+		//Login Button Trigger
+		$(".login-btn").click(function(event) {
+			$(".login").addClass("show");
+		    event.stopPropagation();
+		});	        
+			        
+		//Scroll Back To Top
+		jQuery('.backtotop').click(function(){
+			jQuery('html, body').animate({scrollTop:0}, 'slow');
+		});
+
+  	</script>
+
+	
+	<!-- Optional FlexSlider Additions -->
+	<script src="js/jquery.easing.js"></script>
+	<script src="js/jquery.mousewheel.js"></script>
+	
+	<script src="js/tooltip.js"></script>
+	
+</body>
+</html>

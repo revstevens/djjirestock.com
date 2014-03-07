@@ -1,0 +1,329 @@
+/* FOOTER CSS
+/* SHAYNE TROSDAHL
+------------------*/
+
+/* sass --watch sass:compiled */
+
+body,html{
+	padding: 0;
+	margin: 0;
+	font-family: "Helvetica Neue",HelveticaNeue,"Helvetica-Neue",Helvetica,"BBAlpha Sans",sans-serif;
+	font-weight: normal;
+	font-size: 1em !important;
+}
+
+.right{
+	float: right !important;
+}
+
+.left{
+	width: auto;
+	height: auto;
+	margin: auto;
+}
+
+.centered{
+	margin: auto;
+}
+
+img{ /* CENTERS IMAGE/S WITHIN CONTAINER */	
+	width: auto;
+	height: auto;
+	margin: auto; 
+}
+
+.flex-1{
+	-webkit-flex: 1 !important;
+}
+
+.flex-2{
+	-webkit-flex: 2 !important;
+}
+
+.flex-3{
+	-webkit-flex: 3 !important;
+}
+
+.flex-4{
+	-webkit-flex: 4 !important;
+}
+
+.i-wrap-container{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	
+	-webkit-flex-flow: row wrap;
+	-moz-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+	
+	justify-content: flex-end;
+}
+
+.i-hbox{
+	display: -webkit-box;      
+	display: -moz-box;         
+	display: -ms-flexbox;      
+	display: -webkit-flex;     
+	display: flex;      
+	
+	-webkit-flex-flow: row wrap;       
+}
+
+.i-footer{
+	background-color: $i-main-background-color;
+	padding: .3em;
+	min-height: 200px;
+	color: $i-main-font-color;
+}
+
+.i-footer-column{
+	padding: .5em;
+	background: $i-main-background-color;
+	@include i-flexbox-item(1 175px);
+	text-align: center;
+	margin: .3em;
+}
+
+.i-footer-column-title{
+	color: $i-font-color-dark !important;
+	margin-top: 0;
+	font-size: 1.0em !important;
+	background: rgb(255, 255, 255);
+	border-radius: .2em;
+	padding: .2em 0 .3em;
+	line-height: 1.2;
+}
+
+.i-footer-legal{
+	@include i-flexbox-item(1 100px);
+	@include i-flex-box-container();
+	background: $i-main-background-color;
+	text-align: center;
+	margin: .3em;
+	padding: .5em;
+	color: $i-main-font-color;
+	-webkit-flex-flow: row wrap;
+}
+
+.i-footer-legal {
+	font-size: .7em;	
+}
+
+.i-footer-legal p{
+	text-align: left !important;	
+}
+
+.i-footer-column,.i-footer-legal{
+	border-radius: .3em !important;
+	box-shadow: inset 0 0 4em $i-main-background-color;
+}
+
+/*------------------------------------ TWITTER FEED START */
+
+iframe{
+	
+}
+
+.tweet{
+	background-color: rgba(255,255,255,0.5)
+} 
+
+.h-entry{
+	
+} 
+
+.customisable-border{
+	
+}
+
+/*------------------------------------ EMMA SUBSCRIBE FORM START */
+
+.e2ma_signup_form {
+    width: 100% !important;
+    font-family: sans-serif !important;
+}
+
+.e2ma_signup_form_label {
+	@include i-flexbox-item(1 30%);
+	color: $i-font-color-dark !important;
+	-webkit-box-align: center;
+	box-align: center;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: center;
+	font-weight: bold;
+	font-size: .8em;
+	line-height: 2em;
+	min-height: 2em;
+	display: block;
+	overflow: hidden;	
+	text-decoration: none;
+	text-align: left; 
+	background-color: #fff;
+	padding: .5em;
+	width: 30%;
+}
+
+.e2ma_signup_form_element{
+	@include i-flexbox-item(2 70%);
+	padding: .3em .6em;
+}
+
+.e2ma_signup_form input[type=text]{
+	background-color: transparent;
+	/* FLEX */	
+	@include i-flexbox-item(1 100px);
+	-webkit-box-align: center;
+	box-align: center;
+	text-overflow: ellipsis;
+	text-align: left;
+	line-height: 1.2em;
+	display: block;
+	overflow: hidden;	
+
+	/* TYPE */
+	color: rgba(255,255,255,1);
+	font-family: "Helvetica Neue",HelveticaNeue,"Helvetica-Neue",Helvetica,"BBAlpha Sans",sans-serif;
+	font-weight: normal;
+	font-size: 1em;
+	text-decoration: none;
+	white-space: nowrap;
+
+	/* INPUT FIELD */
+	border: none !important;
+	outline: none;
+}	
+
+.e2ma_signup_message {
+    padding: .5em;
+	text-align: left;
+}
+
+.e2ma_signup_message span {
+        font-family: 'asapitalic' !important;
+        font-weight: normal;
+    }
+
+.e2ma_signup_form_row, .e2ma_signup_form_button_row {
+    border: none !important;
+    -webkit-box-flex: 1;
+    @include i-flex-box-container();
+}
+
+.e2ma_signup_form_row{
+	background-image: none;
+	background-color: $i-main-background-color;
+	color: $i-main-font-color;
+	border: .2em solid $i-main-border-color !important;
+	min-height: 2em;
+	margin: .5em .5em;
+
+	background-clip: padding-box;
+	
+	display: box;
+	box-align: center;
+	position: relative;
+	overflow: hidden;
+	
+	display: -webkit-box;
+	-webkit-background-clip: padding;
+	border-radius: .4em;
+	-webkit-box-align: center;
+	-webkit-user-select: none;	
+}
+	
+.e2ma_signup_form_required_footnote {
+    font-family: sans-serif !important;
+    color: #333333;
+    border: none !important;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+.e2ma_signup_form_button_row{
+@include i-flex-box-container();
+	box-align: center;
+	position: relative;
+	overflow: hidden;
+	display: -webkit-box;
+}
+
+.e2ma_signup_form_button_row input:first-child {
+	background: $i-button-green;
+	@include i-flexbox-item(1 100px);
+	-webkit-box-align: center;
+	box-align: center;
+	font-size: 1em;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: center;
+	font-weight: 400;
+	line-height: 2em;
+	display: block;
+	overflow: hidden;	
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+	border: .2em solid rgba(255,255,255,1);
+	border-radius: .4em;
+	min-height: 2em;
+	margin: .5em .5em;
+	margin-bottom: 0;
+	padding: .3em .7em;
+	cursor: hand;
+	/* float: left; */
+}
+
+.e2ma_signup_form_button_row input {
+	background: $i-button-dark-gray;
+	@include i-flexbox-item(1 100px);
+	-webkit-box-align: center;
+	box-align: center;
+	font-size: 1em;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: center;
+	font-weight: 400;
+	line-height: 2em;
+	display: block;
+	overflow: hidden;	
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+	border: .2em solid rgba(255,255,255,1);
+	border-radius: .4em;
+	min-height: 2em;
+	margin: .5em .5em;
+	margin-bottom: 0;
+	padding: .3em .7em;
+	/* float: right; */
+}
+    
+/*------------------------------------ EMMA SUBSCRIBE FORM END 	*/ 
+
+@media only screen and (max-width: 1000px) {
+	
+}
+
+@media only screen and (max-width: 680px) {
+
+}
+
+@media only screen and (max-width: 400px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,94 @@
+/* BUTTON CSS
+/* SHAYNE TROSDAHL
+------------------*/
+
+
+.i-button{
+	@include i-flexbox-item(1 100px);
+	background-color: 	$i-main-background-color;
+	border: .2em solid 	$i-main-border-color;
+	border-radius: 		$i-button-border-radius;
+	color: 				$i-main-font-color;
+
+	background-image: none;
+	min-height: 1.8em;
+	margin: 0.5em 0.5em;
+	padding: 0.3em 0.6em;
+	background-clip: padding-box;
+	box-align: center;
+	position: relative;
+	overflow: hidden;
+
+	-webkit-background-clip: padding;
+	-webkit-box-align: center;
+	-webkit-user-select: none;	
+}
+
+.i-button a{
+	color: 				$i-main-font-color;
+	margin: auto;
+	display: block;
+	text-decoration: none;
+	line-height: 1.6em;
+}
+
+.i-button-green{
+	background-color: 	$i-button-green;
+}
+
+.i-button-icon{
+	width: 2.1em;
+	height: 2.1em;
+	background-repeat: no-repeat; 
+	background-position: center;
+	display: none;
+}
+
+.i-button-label{
+	@include i-flexbox-item(1 100px);
+	color: 				$i-main-font-color;
+	-webkit-box-align: center;
+	box-align: center;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: center;
+	font-weight: bold;
+	line-height: 1.6em;
+	display: block;
+	overflow: hidden;	
+	text-decoration: none;
+}
+
+.i-button:hover{
+	box-shadow: inset 0 0 4em $i-button-hover-color 
+}
+
+.i-icon{
+	height: 3em;
+	width: 3em;
+	padding: 0 .5em;
+	position: relative;
+	-webkit-box-pack: center;
+	box-pack: center;
+}
+
+.i-footer .i-icon{
+	min-height: 5em !important;
+	min-width: 5em !important;
+	padding: 0 .5em;
+	position: relative;
+	-webkit-box-pack: center;
+	box-pack: center;	
+}
+
+.i-icon-easytoachieve{
+	background-image: url('icons/logo-easytoachieve.svg');
+	min-width: 4.90em !important;
+	min-height: 4.90em !important;
+	margin: 0 auto;
+	position: relative;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;	
+}
